@@ -37,7 +37,7 @@ GIT_VERSION := $(shell git describe --abbrev=0 --tags)
 #STEMLAB_FIX_OPTION=-DSTEMLAB_FIX
 
 # uncomment the line below to include support for Pi SDR
-#PI_SDR_INCLUDE=PI_SDR
+PI_SDR_INCLUDE=PI_SDR
 
 #uncomment the line below for the platform being compiled on (actually not used)
 UNAME_N=raspberrypi

@@ -1,0 +1,7 @@
+*.o
+*.dylib
+pihpsdr
+wdspWisdom
+*.props
+.vscode/
+.DS_Store

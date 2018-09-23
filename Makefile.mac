@@ -19,7 +19,7 @@ GIT_VERSION := $(shell git describe --abbrev=0 --tags)
 #FREEDV_INCLUDE=FREEDV
 
 # uncomment the line below to include Pure Signal support
-PURESIGNAL_INCLUDE=PURESIGNAL
+#PURESIGNAL_INCLUDE=PURESIGNAL
 
 # uncomment the line to below include support for sx1509 i2c expander
 #SX1509_INCLUDE=sx1509
@@ -28,13 +28,13 @@ PURESIGNAL_INCLUDE=PURESIGNAL
 #LOCALCW_INCLUDE=LOCALCW
 
 # uncomment the line below to include support for STEMlab discovery (WITHOUT AVAHI)
-STEMLAB_DISCOVERY=STEMLAB_DISCOVERY_NOAVAHI
+#STEMLAB_DISCOVERY=STEMLAB_DISCOVERY_NOAVAHI
 
 # uncommment this line for circumventing problems with RedPitya HPSDR apps.
-STEMLAB_FIX_OPTION=-DSTEMLAB_FIX
+#STEMLAB_FIX_OPTION=-DSTEMLAB_FIX
 
 # uncomment the line below to include support for Pi SDR
-#PI_SDR_INCLUDE=PI_SDR
+PI_SDR_INCLUDE=PI_SDR
 
 #uncomment the line below for the platform being compiled on (actually not used)
 UNAME_N=raspberrypi
